@@ -7,7 +7,8 @@ body {
 	font-family: Tahoma, Arial, Helvetica, sans-serif;
 	background:	#cccccc;
 	color: #333333;
-	font-size:14px;
+	font-size:15px;
+	font-family:"Georgia";
 }
 ul {
 	list-style:none;

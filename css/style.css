@@ -29,7 +29,9 @@ a {
 	height:auto;
 	border-left:5px solid #bbbbbb;
 	border-right:5px solid #bbbbbb;
-	overflow:hidden;
+	min-width:650px;
+	overflow:auto;
+	/*overflow:hidden;*/
 }
 .header {
 	overflow:auto;
@@ -56,7 +58,7 @@ a {
 }
 	.contact .profileImg {
 		width: 220px;
-		margin:10px 15px 10px 15px;
+		margin:10px 0 10px 15px;
 		float:left;
 	}
 	.contact .contactDetail {

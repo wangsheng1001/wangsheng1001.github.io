@@ -29,9 +29,7 @@ a {
 	height:auto;
 	border-left:5px solid #bbbbbb;
 	border-right:5px solid #bbbbbb;
-	min-width:700px;
-	overflow:auto;
-	/*overflow:hidden;*/
+	overflow:hidden;
 }
 .header {
 	overflow:auto;

@@ -7,98 +7,75 @@ body {
 	font-family: Tahoma, Arial, Helvetica, sans-serif;
 	background:	#cccccc;
 	color: #333333;
-	font-size:15px;
+	font-size:14px;
 	font-family:"Arial";
 }
+p {
+	line-height:18px;
+}
 ul {
-	list-style:none;
+	list-style-type:disc;
+	line-height:18px;
+	padding-left:15px;
 }
 a {
 	text-decoration: none;
 }
 .wrapper {
-	width:1034px;
 	margin:0 auto;
 }
 .innerWrapper {
 	background:#fffffe;
-	/*min-height:1267px;*/
 	height:auto;
-	width:1024px;
 	border-left:5px solid #bbbbbb;
 	border-right:5px solid #bbbbbb;
 	overflow:hidden;
 }
 .header {
-	width:100%;
-	height:67px;
+	overflow:auto;
 	background-color:#ff6600;
 	border-bottom:1px solid #ff6600;
 }
-	.header .myName {
-		font-size:30px;
+	.header .welcome {
+		font-size:24px;
 		color:#ffffff;
 		float:left;
 		display:block;
-		margin: 16px 0 0 20px;
+		margin: 10px 15px 10px 15px;
 		text-decoration: none;
 	}
 		.header .myName a:visited {
 			text-decoration: none;
 		}
-	.header .socSite{
-		background: url(../i/nuslogo.gif) 0 0 no-repeat;
-		width:152px;
-		height:67px;
-		display:block;
-		float:right;
-	}
 .content {
 }
-.content .mainContent {
-	float:left;
-	min-height:900px;
-	height:auto;
-	border-left:1px solid #cccccc;
-	width:100%;
+.content .contact{
+	overflow:auto;
+	border-bottom:1px solid #cccccc;
+	clear:both;
 }
-	.content .mainContent .contact{
-		height:300px;
-		border-bottom:1px solid #cccccc;
+	.contact .profileImg {
+		width: 220px;
+		margin:10px 15px 10px 15px;
+		float:left;
 	}
-		.contact .profileLogo {
-			width: 280px;
-			margin-top:10px;
-			margin-left:10px;
-			float:left;
+	.contact .contactDetail {
+		margin:10px 15px 0 15px;
+		float:left;
+	}
+		.contact .contactDetail .myName{
+			width: 100px;
+			margin:0 0 0 0;
 		}
-		.contact .contactDetail {
-			float:left;
-			margin-top:20px;
-			margin-left:30px;
+		.contact .contactDetail p{
+			margin-bottom: 10px;
 		}
-			.contact .contactDetail .myName{
-				width: 100px;
-				margin-top:0px;
-				margin-left:0px;
-			}
-			.contact .contactDetail p{
-				margin-bottom: 15px;
-			}
-			.contact .contactDetail ul li{
-				font-size:14px;
-				color:#333333;
-			}
-			.contact .contactDetail ul li a{
-				font-size:14px;
-				color:#333333;
-			}
-			.contact .contactDetail ul li a:hover{
-				text-decoration:underline;
-			}
+.content .mainContent {
+	clear:both;
+	/*border-left:1px solid #cccccc;*/
+}
 	.mainContent .section{
-		margin:10px 0 0 15px;
-		width:980px;
+		margin:10px 15px 0 15px;
 		padding-bottom:10px;
 	}
 		.mainContent .section h1 {
@@ -107,25 +84,11 @@ a {
 			font-weight: bold;
 			color:#333333;
 		}
-			.mainContent .section h1 a{
-				font-size:12px;
-				float:right;
-			}
 		.mainContent .section p {
-			margin-left:15px;
-			margin-top:10px;
-			line-height:20px;
+			margin:10px 15px 0 15px;
 		}
 		.mainContent .section ul {
-			margin-left:15px;
-			margin-top:10px;
-			line-height:20px;
-			display:block;
-			list-style-type:disc;
-			padding-left:15px;
-		}
-		.mainContent #links {
-			padding-bottom:20px;
+			margin:10px 15px 0 15px;
 		}
 .footer {
 	clear:both;
@@ -136,7 +99,6 @@ a {
 		font-size:14px;
 		font-weight: bold;
 		color:#333333;
-		line-height:20px;
 		float:right;
 		display:block;
 		margin-top:5px;

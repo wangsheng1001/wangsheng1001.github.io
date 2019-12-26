@@ -93,8 +93,10 @@ a {
 			margin:10px 15px 0 15px;
 		}
 .footer {
+	margin-top:20px;
 	clear:both;
 	height:20px;
+	background-color:#ff6600;
 }
 	.footer p{
 		font-family: "Lucida Grande", Arial, Helvetica, sans-serif;

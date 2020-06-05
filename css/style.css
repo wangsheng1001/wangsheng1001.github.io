@@ -18,6 +18,10 @@ ul {
 	line-height:18px;
 	padding-left:15px;
 }
+ol {
+	line-height:18px;
+	padding-left:15px;
+}
 a {
 	text-decoration: none;
 }
@@ -90,6 +94,9 @@ a {
 			margin:10px 15px 0 15px;
 		}
 		.mainContent .section ul {
+			margin:10px 15px 0 15px;
+		}
+		.mainContent .section ol {
 			margin:10px 15px 0 15px;
 		}
 .footer {
